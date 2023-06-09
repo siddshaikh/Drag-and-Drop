@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 19, 23);
+}
+.main {
+  display: flex;
+}
+.container {
+  background: linear-gradient(rgb(91, 91, 128), rgb(227, 177, 177));
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+}
+.first {
+  width: 50%;
+}
+.second {
+  width: 50%;
+}
+.draggable {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid black;
+  cursor: move;
+  text-align: center;
+}
+button {
+  display: flex;
+  margin: auto;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background: linear-gradient(red, orange);
+  cursor: pointer;
+  font-weight: 800;
+}
